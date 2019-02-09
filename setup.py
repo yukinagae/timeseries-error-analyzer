@@ -2,7 +2,7 @@ from distutils.core import setup
 
 REQUIREMENTS = [
     'numpy',
-    'sklearn',
+    'scikit-learn',
     # test
     'pytest',
 ]
