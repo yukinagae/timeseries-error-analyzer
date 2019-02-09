@@ -9,7 +9,7 @@ REQUIREMENTS = [
 
 setup(
     name='tserror',
-    version='0.1dev',
+    version='0.1dev-1',
     author='Yuki Nagae',
     author_email='yuki.nagae1130@gmail.com',
     install_requires=REQUIREMENTS,
