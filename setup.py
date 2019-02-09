@@ -1,9 +1,8 @@
-from distutils.core import setup
-
+from setuptools import setup
 
 setup(
     name='tserror',
-    version='0.1dev-1',
+    version='0.1.dev1',
     author='Yuki Nagae',
     author_email='yuki.nagae1130@gmail.com',
     install_requires=[
