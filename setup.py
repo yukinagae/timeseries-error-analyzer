@@ -1,18 +1,19 @@
 from distutils.core import setup
 
 REQUIREMENTS = [
-    "numpy",
-    "sklearn",
+    'numpy',
+    'sklearn',
+    # test
+    'pytest',
 ]
 
 setup(
-    name='ts-error',
+    name='tserror',
     version='0.1dev',
     author='Yuki Nagae',
     author_email='yuki.nagae1130@gmail.com',
     install_requires=REQUIREMENTS,
-    packages=['ts-error'],
+    packages=['tserror'],
     license='MIT',
     description='A tiny python package analyzes time series prediction errors',
-    long_description=open('README.md').read(),
 )
