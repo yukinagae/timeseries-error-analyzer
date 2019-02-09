@@ -7,4 +7,4 @@ __ALL__ = [
 
 
 def root_mean_squared_error(y_true, y_pred):
-  return np.sqrt(mean_squared_error(y_pred, y_true))
+    return np.sqrt(mean_squared_error(y_pred, y_true))
